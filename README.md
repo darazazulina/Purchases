@@ -54,7 +54,7 @@ INSERT INTO Items(price)
 VALUES (215.0), (100.0), (25.0), (355.0), (50.0), (35.0), (270.0);
 
 <p align="center">
-    <img src="https://github.com/darazazulina/Coffee_shop_sales/blob/main/images/T2.PNG"/>
+    <img src="images/T2.PNG"/>
 </p>
 
 Таблица Purchases заполнена данными с идентификаторами пользователя и товара, а также датой покупки, идентификатор покупки заполняется автоматически.
@@ -69,7 +69,7 @@ VALUES
   (5, 4, "2024-12-08");
 
 <p align="center">
-    <img src="https://github.com/darazazulina/Coffee_shop_sales/blob/main/images/T3.PNG"/>
+    <img src="images/T3.PNG"/>
 </p>
 
 ## SQL-запросы
@@ -87,7 +87,7 @@ WHERE age >= 18 AND age <= 25
 GROUP BY strftime('%m', date);
 
 <p align="center">
-    <img src="https://github.com/darazazulina/Coffee_shop_sales/blob/main/images/Q1.PNG"/>
+    <img src="images/Q1.PNG"/>
 </p>
 
 1) В каком месяце года выручка от пользователей в возрастном диапазоне 35+ самая большая
@@ -103,7 +103,7 @@ ORDER BY SUM(price) DESC
 LIMIT 1;
 
 <p align="center">
-    <img src="https://github.com/darazazulina/Coffee_shop_sales/blob/main/images/Q2.PNG"/>
+    <img src="images/Q2.PNG"/>
 </p>
 
 1) Какой товар дает наибольший вклад в выручку за последний год
@@ -118,7 +118,7 @@ FROM (
 WHERE top_rev = 1;
 
 <p align="center">
-    <img src="https://github.com/darazazulina/Coffee_shop_sales/blob/main/images/Q3.PNG"/>
+    <img src="images/Q3.PNG"/>
 </p>
 
 1) Топ-3 товаров по выручке и их доля в общей выручке
@@ -137,7 +137,7 @@ FROM (
 WHERE top_rev <= 3;
 
 <p align="center">
-    <img src="https://github.com/darazazulina/Coffee_shop_sales/blob/main/images/Q4.PNG"/>
+    <img src="images/Q4.PNG"/>
 </p>
 
 ## Выводы
